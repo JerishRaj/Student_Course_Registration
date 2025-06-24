@@ -106,9 +106,12 @@ CREATE TABLE students (
 🔒 Role-based access control enforced in MainApp.java
 
 🛠️ Setup Instructions
-Clone Repository
-Create MySQL DB
 
+Clone Repository
+git clone https://github.com/your-username/course-registration-system.git
+cd course-registration-system
+
+Create MySQL DB
 CREATE DATABASE course_registration;
 -- Run schema.sql here
 Update DB Credentials
@@ -118,6 +121,7 @@ Compile & Run
 
 javac com/course_registration/main/MainApp.java
 java com.course_registration.main.MainApp
+
 🧱 Future Roadmap
 ✅ DAO Layer
 ✅ Role-specific login
