@@ -120,7 +120,11 @@ CREATE TABLE students (
 🛠️ Setup Instructions
 
 Clone Repository
+
+  ```bash
+
 git clone https://github.com/JerishRaj/course-registration-system.git
+```
 cd course-registration-system
 
 Create MySQL DB
