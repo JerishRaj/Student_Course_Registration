@@ -36,14 +36,14 @@ This project is ideal for:
 
 
 ## 🏗️ Architecture
-
+```bash
 com.course_registration/
 ├── dao/ # DAO interfaces
 ├── daoimpl/ # JDBC implementations
 ├── model/ # Data models (POJOs)
 ├── util/ # DBConnection utility
 └── main/ # MainApp.java (Entry point)
-
+```
 
 ## 🔐 Role-Based Access
 
