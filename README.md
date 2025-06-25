@@ -47,11 +47,11 @@ com.course_registration/
 
 ## 🔐 Role-Based Access
 
-| Role       | Permissions                                                                 |
-|------------|------------------------------------------------------------------------------|
-| 👨‍💼 Admin    | Manage students, instructors, courses, departments, enrollments             |
-| 👩‍🎓 Student  | View & enroll in courses, view enrolled courses                             |
-| 👨‍🏫 Instructor | (Extensible) View assigned courses, enrolled students                     |
+| Role            | Permissions                                                                    |
+|------------     |-----------------------------------------------------------------------------   |
+| 👨‍💼 Admin       | Manage students, instructors, courses, departments, enrollments                |
+| 👩‍🎓 Student     | View & enroll in courses, view enrolled courses                                |
+| 👨‍🏫 Instructor  | (Extensible) View assigned courses, enrolled students                          |
 
 
 
@@ -97,6 +97,16 @@ CREATE TABLE students (
   FOREIGN KEY (departmentId) REFERENCES departments(departmentId)
 );
 
+## ScreenShots
+
+![image](https://github.com/user-attachments/assets/f5de3745-c692-4c6f-8141-8d83ce3cee13)
+
+![image](https://github.com/user-attachments/assets/31fae0e5-6f3a-4a64-8176-9c186b1bda84)
+
+![image](https://github.com/user-attachments/assets/e56e20cb-7647-4b91-937e-b26ddfc0a16a)
+
+![image](https://github.com/user-attachments/assets/8c5201f6-6ed4-41df-9a89-ce5a3864bf2b)
+
 
 🔐 Security Notes
 ❌ Plain password inputs (Consider using hashed passwords in future)
@@ -108,7 +118,7 @@ CREATE TABLE students (
 🛠️ Setup Instructions
 
 Clone Repository
-git clone https://github.com/your-username/course-registration-system.git
+git clone https://github.com/JerishRaj/course-registration-system.git
 cd course-registration-system
 
 Create MySQL DB
